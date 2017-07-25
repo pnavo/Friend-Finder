@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Friend Finder</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Let's find your friend!</h1>
+    <hr>
+    <div class="panel panel-default">
+      <div class="panel-heading"><h2><span class="glyphicon glyphicon-user" style="margin-right: 10px"></span>About You</h2></div>
+      <div class="panel-body">
+        <form>
+          <div class="form-group">
+            <label for="name">Name (Required)</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label for="photo">Link to Photo Image (Required)</label>
+            <input type="url" class="form-control" id="photo">
+          </div>
+          <div class="form-group">
+            <h3>Question 1</h3>
+              <label for="q1">You like working on the railroad.</label>
+              <select class="form-control" id="q1">
+                <option disabled selected>-- Please Select --</option>
+                <option value ="1">1 (Swing low, sweet chariot.)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Camptown Lady)</option>
+              </select>
+          </div>
+          <div class="form-group">
+            <h3>Question 2</h3>
+              <label for="q2">How much do you love a good shootout?</label>
+              <select class="form-control" id="q2">
+                <option disabled selected>-- Please Select --</option>
+                <option value ="1">1 (Duck and cover!)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Yee Haw!)</option>
+              </select>
+          </div>
+           <div class="form-group">
+            <h3>Question 3</h3>
+              <label for="q3">I'm so tired!</label>
+              <select class="form-control" id="q3">
+                <option disabled selected>-- Please Select --</option>
+                <option value ="1">1 (I could go for a run)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (I'm kaput!)</option>
+              </select>
+          </div>
+           <div class="form-group">
+            <h3>Question 4</h3>
+              <label for="q4">How much do you like Rock Ridge?</label>
+              <select class="form-control" id="q4">
+                <option disabled selected>-- Please Select --</option>
+                <option value ="1">1 (A little)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (A lot)</option>
+              </select>
+          </div>
+           <div class="form-group">
+            <h3>Question 5</h3>
+              <label for="q5">You prefer whiskey over cocktail</label>
+              <select class="form-control" id="q5">
+                <option disabled selected>-- Please Select --</option>
+                <option value ="1">1 (Manhattan)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Whiskey! Whiskey!)</option>
+              </select>
+          </div>
+           <div class="form-group">
+            <h3>Question 6</h3>
+              <label for="q6">How would you rate Mel Brooks?</label>
+              <select class="form-control" id="q6">
+                <option disabled selected>-- Please Select --</option>
+                <option value ="1">1 (Don't care for him)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (What a genius!)</option>
+              </select>
+          </div>
+           <div class="form-group">
+            <h3>Question 7</h3>
+              <label for="q7">How would it feel to be the king in the 1800s?</label>
+              <select class="form-control" id="q7">
+                <option disabled selected>-- Please Select --</option>
+                <option value ="1">1 (So much pressure!)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (It's good to be the king)</option>
+              </select>
+          </div>
+          <div class="form-group">
+            <h3>Question 8</h3>
+              <label for="q8">How much do you like Schnitzengruben?</label>
+              <select class="form-control" id="q8">
+                <option disabled selected>-- Please Select --</option>
+                <option value ="1">1 (No thanks)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (15 is my limit!)</option>
+              </select>
+          </div>
+          <div class="form-group">
+            <h3>Question 9</h3>
+              <label for="q9">Fourth wall breaks</label>
+              <select class="form-control" id="q9">
+                <option disabled selected>-- Please Select --</option>
+                <option value ="1">1 (Ruins the immersion)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (So fun!)</option>
+              </select>
+          </div>
+           <div class="form-group">
+            <h3>Question 10</h3>
+              <label for="q10">How much do you like watching the heros ride into the sunset? </label>
+              <select class="form-control" id="q10">
+                <option disabled selected>-- Please Select --</option>
+                <option value ="1">1 (they should just stay in town)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (A lot)</option>
+              </select>
+          </div>
+          <div id="submit-btn">
+            <button type="submit" class="btn btn-primary" id="submit" style="width: 100%"><span class="glyphicon glyphicon-send" style="margin-right: 10px"></span>Submit Survey</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div>
+      <a href="/api/friends">API Friend List</a> | <a href="https://github.com/lawrencel13110123/Friend-Finder">GitHub Repo</a>
+    </div>
+
+    <div class="modal fade" id="match-modal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title">Here is Your Best Match!</h1>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="matched-display">
+            <div id="display-name"></div>
+            <div id="display-img"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+	</div>
+  
+<script>
+   
+  $("#submit").on("click", function(event) {
+    event.preventDefault(); 
+    var validate = true
+    for(i = 1; i < 11 ; i++) {
+      if(!$("#q"+ i).val()) {
+        validate = false
+      } 
+    }
+    if ($("#name").val() === "" || $("#photo").val() === "" || validate === false) {
+      alert("Please fill in questions."); 
+    }
+    else 
+    {
+      event.preventDefault(); 
+      var user = {
+        name: $("#name").val().trim(),
+        img: $("#photo").val().trim(),
+        answer: [
+        $("#q1").val().substr(0,1),
+        $("#q2").val().substr(0,1),
+        $("#q3").val().substr(0,1),
+        $("#q4").val().substr(0,1),
+        $("#q5").val().substr(0,1),
+        $("#q6").val().substr(0,1),
+        $("#q7").val().substr(0,1),
+        $("#q8").val().substr(0,1),
+        $("#q9").val().substr(0,1),
+        $("#q10").val().substr(0,1)
+        ] 
+      }; 
+      console.log(user)
+      console.log(user.answer)
+      $.post("/api/friends", user, function(data) {
+       console.log(data)
+       $("#display-name").html("<h3>" + data.nameMatch + "<h3>")
+       $("#display-img").html("<img src=" + data.imgMatch + ">")
+       $("#match-modal").modal("toggle")
+      })
+    }
+  })
+</script>
+
+</body>
+</html>
